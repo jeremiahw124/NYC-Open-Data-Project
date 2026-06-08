@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- WD Lesson 2.6: 
+     How can we create a website?
+     How can we add CSS to a web page? -->
+
+<!-- Resources 
+     https://slickplan.com/blog/types-of-website-structure 
+     https://www.w3schools.com/css/css_website_layout.asp
+     https://www.w3schools.com/css/default.asp 
+     https://www.w3schools.com/css/css_howto.asp
+-->
+<html>
+  <head>
+    <title>Open Restaurants Inspections</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+    <style>
+      /* Challenge 6: Using internal styling,  change the color of the web page.*/
+body {
+  background-color: gainsboro;
+}
+
+      /* Further challenges are located in style.css  */
+
+      /* Challenge 12: Create the other pages in the sitemap using index.html as the template. 
+                       Modify the heading in the banner container appropriately to match the topic of the web page.
+                       Modify the image included to match the topic of the web page.
+                       Provide an appropriate paragraph to the main container to match the topic of the web page.
+
+      */
+      
+    </style>
+  </head>
+  <body>
+    <!-- Challenge 1: Create the navigation bar in support of the sitemap associated with the website. -->
+<nav>
+  <a href ="index.html"> HOME </a>
+  <a href ="info.html"> INFO </a>
+  <a href ="analysis.html"> CHARTS </a>
+</nav>
+    <!-- Challenge 2: Create a banner container with heading of "Web Development".  Give it a class of "banner".-->
+<div class="banner">
+      <h1>Open Restaurants Inspections
+</h1>
+    </div>
+
+    <div class="main">
+      <!-- Challenge 3: Add the image of webicons.png-->
+       <div id="body" class="container column">
+       <img src="https://www.staugustine.com/gcdn/presto/2023/06/06/PAPP/022a761e-1cb0-44e9-ab10-2756e825c4f4-restaurant-inspections-3.png?crop=1593,897,x3,y0&width=1593&height=897&format=pjpg&auto=webp" style ="height:1000px;">
+       </div>
+      <!-- Challenge 4: Using inline styling, resize the above image appropriately -->
+      <!-- Challenge 5: Write a paragraph describing web development.  Discuss the purpose of HTML, CSS and JavaScript -->
+<p>
+The Open Restaurants Inspections dataset contains records of site setup inspections performed throughout the five boroughs of New York City.
+</p>
+    </div>
+
+  </body>
+
+<div id="footer" class="container">
+  <p>NYC Open Data Project</p>
+</div>
+
+</html>
